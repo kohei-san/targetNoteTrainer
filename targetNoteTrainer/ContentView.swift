@@ -9,8 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        NavigationView {
+            VStack {
+                NavigationLink("ターゲットノートトレーニング"
+                               ,destination: TrainingSettingView())
+                
+                NavigationLink("ダイアトニックコード確認"
+                               ,destination: TrainingSettingView())
+                
+            }
+            
+        }
+        
+        
+        
     }
 }
 
