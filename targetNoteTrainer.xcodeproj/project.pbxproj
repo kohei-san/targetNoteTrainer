@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5536011E27E57D4700895EEA /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5536011D27E57D4700895EEA /* Note.swift */; };
+		5536012027E57DCB00895EEA /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5536011F27E57DCB00895EEA /* Scale.swift */; };
+		5548CF3A27F32CA10081EC3F /* Chords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5548CF3927F32CA10081EC3F /* Chords.swift */; };
 		5556863727B8AECB00034107 /* targetNoteTrainerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5556863627B8AECB00034107 /* targetNoteTrainerApp.swift */; };
 		5556863927B8AECB00034107 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5556863827B8AECB00034107 /* ContentView.swift */; };
 		5556863B27B8AECC00034107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5556863A27B8AECC00034107 /* Assets.xcassets */; };
 		5556863E27B8AECC00034107 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5556863D27B8AECC00034107 /* Preview Assets.xcassets */; };
+		5556864527B8B58100034107 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5556864427B8B58100034107 /* Notes.swift */; };
+		5556864727B9198400034107 /* TrainingSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5556864627B9198400034107 /* TrainingSettingView.swift */; };
+		5556864927BD972F00034107 /* TargetDegreeSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5556864827BD972F00034107 /* TargetDegreeSettingView.swift */; };
+		55F5070027D48FAE00D91D65 /* ListDiatonicChordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F506FF27D48FAE00D91D65 /* ListDiatonicChordsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5536011D27E57D4700895EEA /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		5536011F27E57DCB00895EEA /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
+		5548CF3927F32CA10081EC3F /* Chords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chords.swift; sourceTree = "<group>"; };
 		5556863327B8AECB00034107 /* targetNoteTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = targetNoteTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5556863627B8AECB00034107 /* targetNoteTrainerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = targetNoteTrainerApp.swift; sourceTree = "<group>"; };
 		5556863827B8AECB00034107 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5556863A27B8AECC00034107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5556863D27B8AECC00034107 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5556864427B8B58100034107 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		5556864627B9198400034107 /* TrainingSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSettingView.swift; sourceTree = "<group>"; };
+		5556864827BD972F00034107 /* TargetDegreeSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetDegreeSettingView.swift; sourceTree = "<group>"; };
+		55F506FF27D48FAE00D91D65 /* ListDiatonicChordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDiatonicChordsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				5556863627B8AECB00034107 /* targetNoteTrainerApp.swift */,
 				5556863827B8AECB00034107 /* ContentView.swift */,
+				5556864427B8B58100034107 /* Notes.swift */,
+				5556864627B9198400034107 /* TrainingSettingView.swift */,
+				5556864827BD972F00034107 /* TargetDegreeSettingView.swift */,
+				55F506FF27D48FAE00D91D65 /* ListDiatonicChordsView.swift */,
+				5536011D27E57D4700895EEA /* Note.swift */,
+				5536011F27E57DCB00895EEA /* Scale.swift */,
+				5548CF3927F32CA10081EC3F /* Chords.swift */,
 				5556863A27B8AECC00034107 /* Assets.xcassets */,
 				5556863C27B8AECC00034107 /* Preview Content */,
 			);
@@ -138,7 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5556863927B8AECB00034107 /* ContentView.swift in Sources */,
+				5556864927BD972F00034107 /* TargetDegreeSettingView.swift in Sources */,
+				5536011E27E57D4700895EEA /* Note.swift in Sources */,
+				55F5070027D48FAE00D91D65 /* ListDiatonicChordsView.swift in Sources */,
+				5556864727B9198400034107 /* TrainingSettingView.swift in Sources */,
+				5548CF3A27F32CA10081EC3F /* Chords.swift in Sources */,
 				5556863727B8AECB00034107 /* targetNoteTrainerApp.swift in Sources */,
+				5536012027E57DCB00895EEA /* Scale.swift in Sources */,
+				5556864527B8B58100034107 /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

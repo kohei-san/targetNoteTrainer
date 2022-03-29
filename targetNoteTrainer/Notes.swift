@@ -73,7 +73,7 @@ func selectNotes(tagScale: Int, root: Int) ->Array<String> {
 // スケールやコードトーン生成時に、度数のインデックスが11を超えると11を引いて返す
 public func minus12IfDegIndexOverflow (num: Int)-> Int {
     if (num > 11) {
-        return num - 11
+        return num - 12
     }
     // 11未満はそのまま返す
     return num
@@ -163,6 +163,7 @@ public func makeScaleNotesIndex(tagNote: Int, tagAttr:Int, tagScale:Int) ->Array
 //        arrScaleNotes[key] = arrNotes[minus12IfDegIndexOverflow(num: index)]
 //        key += 1
 //    }
+//
     
     var arrScaleNotes = [String]()
     for index in arrScaleIndex {
@@ -201,3 +202,5 @@ public func makeRootNote(tagNote: Int, tagAttr:Int, tagScale:Int)-> String {
 
 
 // ================================ △スケールの定義 ===================================================
+
+
