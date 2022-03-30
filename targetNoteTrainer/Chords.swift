@@ -13,10 +13,12 @@ public func takeChordNotesFromArray(root: Int, scale: Array<String>, numOfNotes:
 
 public func getChordHarmonyName(keyScale: Int) -> Array<String> {
     switch keyScale{
+//        マイナー
     case 31 : return ["m7", "m7♭5", "△7", "m7", "m7", "△7", "7"]
         
-    case 32 : return ["m7", "m7♭5", "△7", "m7", "m7", "△7", "7"]
-        
+//        ハーモニックマイナー
+    case 32 : return ["m△7", "m7♭5", "△7#5", "m7", "7", "△7", "dim"]
+//        メジャー
     default : return ["△7", "m7", "m7", "△7", "7", "m7", "m7♭5"]
     }
 }
