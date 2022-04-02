@@ -25,11 +25,15 @@ struct ListDiatonicChordsView: View {
                 Text(arrayScale[note])
                 Text(arrayChordHarmonyName[note])
                 
-//                var chordNotes = takeChordNotesFromArray(root: note, scale: arrayScale, numOfNotes: 3)
-//                ForEach(chordNotes.indices) { chordIndex in
-//                    let _ = print(Self._printChanges())
-//                    Text(chordNotes[chordIndex])
-//                }
+                Spacer()
+                
+                var chordNotes = takeChordNotesFromArray(root: note, scale: arrayScale, numOfNotes: 4)
+                ForEach(chordNotes.indices) { chordIndex in
+                    let _ = print(Self._printChanges())
+                    Text(chordNotes[chordIndex])
+                }
+                
+                Spacer()
                 
                 
                 
