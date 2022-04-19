@@ -8,24 +8,24 @@
 import SwiftUI
 
 struct TargetDegreeSettingView: View {
-    @AppStorage("target_deg") var targetDeg = 40
+    @AppStorage("target_deg") var targetDeg = 101
     
     var body: some View {
         VStack{
             
             Picker(selection: $targetDeg) {
                 Text("3rd")
-                    .tag(40)
+                    .tag(103)
                 Text("5th")
-                    .tag(41)
+                    .tag(105)
                 Text("7th")
-                    .tag(42)
+                    .tag(107)
                 Text("2nd(9th)")
-                    .tag(43)
+                    .tag(102)
                 Text("4th(11th)")
-                    .tag(44)
+                    .tag(104)
                 Text("6th(13th)")
-                    .tag(45)
+                    .tag(106)
             } label: {
                 Text("選択")
             }
@@ -34,7 +34,7 @@ struct TargetDegreeSettingView: View {
             
             // ---------- ボタン ----------
             NavigationLink("スタート",
-                           destination: ContentView())
+                           destination: QuizView())
             
             
         }
