@@ -13,7 +13,9 @@ struct QuizView: View {
     @AppStorage ("key_scale") var keyScale = 30 //使用するスケール
     @AppStorage("target_deg") var targetDeg = 101
     
-    @State var answer = 0 // ピッカーで選択する値を代入する変数
+    @State var answer = 101 // ピッカーで選択する値を代入する変数
+    
+    @State var QuizNum = 0
     
     var body: some View {
 
@@ -21,10 +23,10 @@ struct QuizView: View {
         //        スケールの配列を変数に格納
         let arrayScale  = makeScaleNotesIndex(tagNote: keyNote, tagAttr: keyAttr, tagScale: keyScale)
         let arrayChordHarmonyName = getChordHarmonyName(keyScale: keyScale)
-        let index = Int.random(in: 0...6)
+        let indexOfChord = Int.random(in: 0...6)
         
         VStack{
-            Text("\(arrayScale[index])" + "\(arrayChordHarmonyName[index])")
+            Text("\(arrayScale[indexOfChord])" + "\(arrayChordHarmonyName[indexOfChord])")
             
             Text("")
             
@@ -39,12 +41,20 @@ struct QuizView: View {
             .labelsHidden()
             .pickerStyle(.wheel)
             
-            Button(action: {
-                print($targetDeg)
-                print($answer)
-            }) {
-                Text("test")
+            // １０回繰り返すまでは再読み込みを続ける
+            if (QuizNum < 10) {
+                Button(action: {
+                    QuizNum += 1
+                    print($targetDeg)
+                    print($answer)
+                }) {
+                    Text("test")
+                }
+            } else {
+                NavigationLink("終了",
+                               destination: ContentView())
             }
+            
         }
         
         
