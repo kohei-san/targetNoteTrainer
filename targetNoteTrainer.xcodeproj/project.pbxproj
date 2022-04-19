@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5536011E27E57D4700895EEA /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5536011D27E57D4700895EEA /* Note.swift */; };
+		5536011E27E57D4700895EEA /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5536011D27E57D4700895EEA /* Quiz.swift */; };
 		5536012027E57DCB00895EEA /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5536011F27E57DCB00895EEA /* Scale.swift */; };
 		5548CF3A27F32CA10081EC3F /* Chords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5548CF3927F32CA10081EC3F /* Chords.swift */; };
 		555642AF2805B80C0010DF27 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555642AE2805B80C0010DF27 /* QuizView.swift */; };
@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5536011D27E57D4700895EEA /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		5536011D27E57D4700895EEA /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		5536011F27E57DCB00895EEA /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
 		5548CF3927F32CA10081EC3F /* Chords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chords.swift; sourceTree = "<group>"; };
 		555642AE2805B80C0010DF27 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 				5556864827BD972F00034107 /* TargetDegreeSettingView.swift */,
 				55F506FF27D48FAE00D91D65 /* ListDiatonicChordsView.swift */,
 				555642AE2805B80C0010DF27 /* QuizView.swift */,
-				5536011D27E57D4700895EEA /* Note.swift */,
+				5536011D27E57D4700895EEA /* Quiz.swift */,
 				5536011F27E57DCB00895EEA /* Scale.swift */,
 				5548CF3927F32CA10081EC3F /* Chords.swift */,
 				5556863A27B8AECC00034107 /* Assets.xcassets */,
@@ -163,7 +163,7 @@
 			files = (
 				5556863927B8AECB00034107 /* ContentView.swift in Sources */,
 				5556864927BD972F00034107 /* TargetDegreeSettingView.swift in Sources */,
-				5536011E27E57D4700895EEA /* Note.swift in Sources */,
+				5536011E27E57D4700895EEA /* Quiz.swift in Sources */,
 				55F5070027D48FAE00D91D65 /* ListDiatonicChordsView.swift in Sources */,
 				5556864727B9198400034107 /* TrainingSettingView.swift in Sources */,
 				5548CF3A27F32CA10081EC3F /* Chords.swift in Sources */,
